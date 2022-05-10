@@ -20,6 +20,6 @@ The code is not optimised and rather slaggish, not meant for efficient calculati
 
 The use of the code is at your own risk. Should you choose to use it, appropriate citations are mandatory:
 
-[1] S.A. Gorbunov, N.A.Medvedev, R.A.Rymzhanov, P.N.Terekhin, A.E.Volkov, Nuclear Instrum. Meth. B 326 (2014) 163-168
+[1] S.A. Gorbunov, N.A. Medvedev, R.A. Rymzhanov, P.N. Terekhin, A.E. Volkov, Nuclear Instrum. Meth. B 326 (2014) 163-168
 
 In a publication, we recommend that at least the following parameters should be mentioned for reproducibility of the results: material, its structure, density, speed of sound, the used CDF coefficients, which processes were included (active) in the simulation, ion type, its energy, the model for SHI charge, number of MC iterations.
