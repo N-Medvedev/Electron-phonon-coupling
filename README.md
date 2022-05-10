@@ -1,5 +1,15 @@
 # Electron-phonon coupling
  Calculation of the electron-phonon coupling in metals within the simplest jelly model
+ 
+Using given material DOS the code evaluates:
+
+1) electron-phonon coupling factor (within the jelly model)
+
+2) electron heat capacity
+
+3) chemical potential
+
+4) electron effective mass in one-parabolic-band approximation
 
 *Disclaimer*
 
