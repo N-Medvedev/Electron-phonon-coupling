@@ -1,20 +1,17 @@
 !***************************************************************
 !* This code was developed in 2014 by
-!* Dr. Nikita Medvedev, CFEL at DESY, Hamburg, Germany, 
+!* Dr. Nikita Medvedev
 !* The code calculates electronic parameters of a matreial
-!* for given DOS vs electron temperature: 
+!* for given DOS vs electron temperature:
 !* 1) electron-phonon coupling factor
 !* 2) electron heat capacity
 !* 3) chemical potential
 !* 4) electron effective mass in one-parabolic-band approximation
 !* Theoretical background of this work relies on the paper:
-!* B. Y. Mueller and B. Rethfeld
-!* "Relaxation dynamics in laser-excited metals under nonequilibrium conditions"
-!* Phys. Rev. B 87, 035139 (2013)
-!* Should you have any questions, address them to the author:
-!* nikita.medvedev@desy.de
+!* S.A. Gorbunov, N.A. Medvedev, R.A. Rymzhanov, P.N. Terekhin, A.E. Volkov, 
+!* Nuclear Instrum. Meth. B 326 (2014) 163-168
 !***************************************************************
-
+! To compile, use the following option (Windows):
 ! ifort.exe /F9999999999 /O3 /Qipo /Qvec-report1 /fpp /Qopenmp /D OMP_inside /heap-arrays Analyzing_DOS_main.f90 -o Analyzing_DOS.exe /link /stack:9999999999 
 
 !***************************************************************
