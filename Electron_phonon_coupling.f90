@@ -135,7 +135,7 @@ subroutine get_dEdt(T, Matter, Mat_DOS, mu, T_grid, ksc, dEdt, Error_message, Ef
         call Linear_approx(Mat_DOS%E, Mat_DOS%DOS, E2, g2)
         call Linear_approx(Mat_DOS%E, Mat_DOS%DOS, E3, g3)
         call Linear_approx(Mat_DOS%E, Mat_DOS%DOS, E4, g4)
-        ! Testing incorrect expression from Zhigilei:
+        ! Testing expression from Zhigilei:
 !         call Linear_approx(Mat_DOS%E, Mat_DOS%DOS, Efermi, g1)
 !         g2 = g1
 !         g3 = g1
@@ -175,7 +175,7 @@ subroutine Collision_integral(T, T_grid, Matter, Mat_DOS, mu, ksc, E, Ieph, Efer
     
     ! Correct expression:
     call Linear_approx(Mat_DOS%E, Mat_DOS%k, E, ke)
-    ! Testing incorrect expression fromZhigilei:
+    ! Testing expression from Zhigilei:
 !     call Linear_approx(Mat_DOS%E, Mat_DOS%k, Efermi, ke)
   
     fe = Fermi(T, mu, E)
@@ -236,7 +236,7 @@ subroutine Collision_integral(T, T_grid, Matter, Mat_DOS, mu, ksc, E, Ieph, Efer
         ! Correct expressions:
         call Linear_approx(Mat_DOS%E, Mat_DOS%k, E+Eph+dEph, ke1(4))
         call Linear_approx(Mat_DOS%E, Mat_DOS%k, E-(Eph+dEph), ke2(4))
-        ! Testing incorrect expressions from Zhigilei:
+        ! Testing expressions from Zhigilei:
 !         call Linear_approx(Mat_DOS%E, Mat_DOS%k, Efermi, ke1(4))
 !         ke2(4) = ke1(4)
         
@@ -264,7 +264,7 @@ subroutine Collision_integral(T, T_grid, Matter, Mat_DOS, mu, ksc, E, Ieph, Efer
         call Linear_approx(Mat_DOS%E, Mat_DOS%k, E+Eph+third*dEph, ke1(2))
         call Linear_approx(Mat_DOS%E, Mat_DOS%k, E+Eph+third2*dEph, ke1(3))
         !ke1(4) is done above
-        ! Testing incorrect expressions from Zhigilei:
+        ! Testing expressions from Zhigilei:
 !         call Linear_approx(Mat_DOS%E, Mat_DOS%k, Efermi, ke1(1))
 !         ke1(2) = ke1(1)
 !         ke1(3) = ke1(1)
@@ -274,7 +274,7 @@ subroutine Collision_integral(T, T_grid, Matter, Mat_DOS, mu, ksc, E, Ieph, Efer
         call Linear_approx(Mat_DOS%E, Mat_DOS%k, E-(Eph+third*dEph), ke2(2))
         call Linear_approx(Mat_DOS%E, Mat_DOS%k, E-(Eph+third2*dEph), ke2(3))
         !ke2(4) is done above
-        ! Testing incorrect expressions from Zhigilei:
+        ! Testing expressions from Zhigilei:
 !         call Linear_approx(Mat_DOS%E, Mat_DOS%k, Efermi, ke2(1))
 !         ke2(2) = ke2(1)
 !         ke2(3) = ke2(1)
