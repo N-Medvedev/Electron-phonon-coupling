@@ -1,0 +1,102 @@
+Al			! name
+26.99		! atomic mass [a.m.u]
+3			! number of electrons in the VB or CB
+2.7 		! density [g/cm^3]
+8.42d0		! fermi energy [eV]
+6320.0		! speed of sound [m/s]
+300.0d0		! temperature of lattice
+12			! number of OpenMP threads
+
+
+!------------------------------------------
+! All the blocks below are not read by the code, but saved here for convenience
+! To use them, simply copy the required material to the tope of the file.
+! Each line of the block is self-explanatory, as to allow setting new materials by example.
+! For calculations, it requires electronic density of states (DOS) to be present in the directory DOS, 
+! file name must exactly coincide with the name of the material in the first line in this file.
+! DOS for many material can be found, e.g., at https://compmat.org/electron-phonon-coupling/
+!------------------------------------------
+
+
+Ru		! name
+101.07			! atomic mass [a.m.u]
+8			! number of electrons in the VB or CB
+12.45 			! density [g/cm^3]
+8.22			! fermi energy [eV]
+5970.0			! speed of sound [m/s]
+300.0d0			! temperature of lattice
+24			! number of OpenMP threads
+
+
+DOS_Au
+196.9665
+11
+19.3
+0.0d0		! fermi energy [eV]
+3240.0
+300.0d0			! temperature of lattice
+12			! number of OpenMP threads
+
+
+FEG		! name
+26.99			! atomic mass [a.m.u]
+3			! number of electrons in the VB or CB
+2.7 			! density [g/cm^3]
+11.17d0			! fermi energy [eV]
+6320.0			! speed of sound [m/s]
+300.0d0			! temperature of lattice
+12			! number of OpenMP threads
+
+
+DOS_Ni_shifted
+58.69		! atomic mass [a.m.u]
+10			! number of electrons in the VB or CB
+8.90			! density [g/cm^3]
+8.65252d0		! fermi energy [eV]
+6320.0			! speed of sound [m/s]
+300.0d0			! temperature of lattice
+12			! number of OpenMP threads
+
+
+DOS_Ni
+58.69		! atomic mass [a.m.u]
+10			! number of electrons in the VB or CB
+8.90			! density [g/cm^3]
+0.0d0		! fermi energy [eV]
+6320.0			! speed of sound [m/s]
+300.0d0			! temperature of lattice
+10			! number of OpenMP threads
+
+
+Ni		! name
+58.69		! atomic mass [a.m.u]
+10			! number of electrons in the VB or CB
+8.90			! density [g/cm^3]
+8.7176		! fermi energy [eV]
+6320.0			! speed of sound [m/s]
+300.0d0			! temperature of lattice
+3			! number of OpenMP threads
+
+
+Ruthenium_3		! name
+101.07			! atomic mass [a.m.u]
+8			! number of electrons in the VB or CB
+12.45 			! density [g/cm^3]
+8.189			! fermi energy [eV]
+5970.0			! speed of sound [m/s]
+300.0d0			! temperature of lattice
+220			! number of OpenMP threads
+
+
+Ag		! name
+107.8682		! atomic mass [a.m.u]
+11			! number of electrons in the VB or CB
+6.3036 			! density [g/cm^3]
+7.455382824			! fermi energy [eV]
+6320.0			! speed of sound [m/s]
+300.0d0			! temperature of lattice
+3			! number of OpenMP threads
+
+
+
+
