@@ -1,13 +1,13 @@
 # Electron-phonon coupling
  Calculation of the electron-phonon coupling in metals within the simplest jelly model
 
-* Disclaimer*
+*Disclaimer*
 
 Although we endeavour to ensure that the code and results delivered are correct, no warranty is given as to its accuracy. We assume no responsibility for possible errors or omissions. We shall not be liable for any damage arising from the use of this code or its parts or any results produced with it, or from any action or decision taken as a result of using this code or any related material.
 
 This code is distributed as is for non-commercial peaceful purposes only, such as research and education. It is explicitly prohibited to use the code, its parts, its results or any related material for military-related and other than peaceful purposes. By using this code or its materials, you agree with these terms and conditions.
 
-* Instructions*
+*Instructions*
 
 The main file of the code is Analyzing_DOS_main.f90. Can be compiled using Make.bat file (written for Windows; can be analogously created for Unix).
 To execute, requires input file INPUT_PARAMETERS.txt - the file contains explanation inside on how to set material parameters.
@@ -16,7 +16,7 @@ Also required to have a file with the electronic density of states (DOS), saved 
 The code is not optimised and rather slaggish, not meant for efficient calculations, rather for simplistic estimations, given that the model behind it is itself very simplistic (for details see Section 4 in Ref.[1]).
 
 
-* How to cite*
+*How to cite*
 
 The use of the code is at your own risk. Should you choose to use it, appropriate citations are mandatory:
 
