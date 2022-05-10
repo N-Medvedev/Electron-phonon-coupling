@@ -15,6 +15,7 @@ Also required to have a file with the electronic density of states (DOS), saved 
 
 The code is not optimised and rather slaggish, not meant for efficient calculations, rather for simplistic estimations, given that the model behind it is itself very simplistic (for details see Section 4 in Ref.[1]).
 
+Output files are self-explanatory, and each has first two lines commenting on the values and units in the printed out columns.
 
 *How to cite*
 
