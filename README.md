@@ -11,6 +11,8 @@ Using given material DOS the code evaluates:
 
 4) electron effective mass in one-parabolic-band approximation
 
+The the jelly model is too simplistic and *is not* recomended for scientific use and research, rather for simple estimations, illustrative and educational perpuses.
+
 *Disclaimer*
 
 Although we endeavour to ensure that the code and results delivered are correct, no warranty is given as to its accuracy. We assume no responsibility for possible errors or omissions. We shall not be liable for any damage arising from the use of this code or its parts or any results produced with it, or from any action or decision taken as a result of using this code or any related material.
@@ -32,5 +34,3 @@ Output files are self-explanatory, and each has first two lines commenting on th
 The use of the code is at your own risk. Should you choose to use it, appropriate citations are mandatory:
 
 [1] S.A. Gorbunov, N.A. Medvedev, R.A. Rymzhanov, P.N. Terekhin, A.E. Volkov, Nuclear Instrum. Meth. B 326 (2014) 163-168
-
-In a publication, we recommend that at least the following parameters should be mentioned for reproducibility of the results: material, its structure, density, speed of sound, the used CDF coefficients, which processes were included (active) in the simulation, ion type, its energy, the model for SHI charge, number of MC iterations.
