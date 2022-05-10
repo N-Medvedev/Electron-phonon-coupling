@@ -9,9 +9,9 @@ Using given material DOS the code evaluates:
 
 3) chemical potential
 
-4) electron effective mass in one-parabolic-band approximation
+4) electron effective mass in effective-one-band approximation
 
-The the jelly model is too simplistic and *is not* recomended for scientific use and research, rather for simple estimations, illustrative and educational perpuses.
+The jelly model is too simplistic and *is not* recomended for scientific use and research, rather for simple estimations, illustrative and educational perpuses.
 
 *Disclaimer*
 
