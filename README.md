@@ -13,6 +13,12 @@ Using given material DOS the code evaluates:
 
 The jelly model is too simplistic and *is not* recomended for scientific use and research, rather for simple estimations, illustrative and educational perpuses.
 
+## Recomendation
+
+For research, it is better to use more advanced methods for calculation of the electron-phonon coupling, e.g. XTANT-3 code: https://github.com/N-Medvedev/XTANT-3
+
+Precalculated tables with the electron-phonon coupling parameters for highly-excited materials based on XTANT-3 calculations across the Periodic Table can be found here: https://github.com/N-Medvedev/XTANT-3_coupling_data
+
 ## Disclaimer
 
 Although we endeavour to ensure that the code and results delivered are correct, no warranty is given as to its accuracy. We assume no responsibility for possible errors or omissions. We shall not be liable for any damage arising from the use of this code or its parts or any results produced with it, or from any action or decision taken as a result of using this code or any related material.
